@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_start_service"
+        android:icon="@drawable/sound"
+        android:showAsAction="ifRoom"
+        android:title="Speak">
+    </item>
+    <item
+        android:id="@+id/menu_quit"
+        android:icon="@drawable/exit"
+        android:showAsAction="ifRoom"
+        android:title="Quit">
+    </item>
+    <item
+        android:id="@+id/menu_create_tweet"
+        android:icon="@drawable/tweet"
+        android:showAsAction="never"
+        android:title="@string/menu_create">
+    </item>
+    <item
+        android:id="@+id/menu_params"
+        android:icon="@drawable/settings"
+        android:showAsAction="never"
+        android:title="Settings">
+    </item>
+    <item
+        android:id="@+id/menu_contact"
+        android:showAsAction="never"
+        android:title="Contact developer">
+    </item>
+    <item
+        android:id="@+id/menu_rate_app"
+        android:showAsAction="never"
+        android:title="Noter application">
+    </item>
+
+</menu>

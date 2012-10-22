@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:key="twoice">
+
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="Basics" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="tts_enable"
+            android:summary="Enable or disable data speaking"
+            android:title="Enable " />
+
+        <ListPreference
+            android:dialogTitle="@string/prefs_update"
+            android:entries="@array/updateTime"
+            android:entryValues="@array/updateTime"
+            android:key="@string/prefs_update"
+            android:title="@string/prefs_update" />
+        <ListPreference
+            android:dialogTitle="@string/prefs_volume"
+            android:entries="@array/updateVolume"
+            android:entryValues="@array/updateVolume"
+            android:key="@string/prefs_volume"
+            android:title="@string/prefs_volume" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

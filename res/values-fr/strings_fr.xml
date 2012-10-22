@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TwoiceActivity!</string>
+    <string name="app_name">Twoice</string>
+    <string name="message_notification">Let\' speak your tweet!</string>
+    <string name="message_notification_send">Send tweet</string>
+
+    <!-- menu -->
+    <string name="menu_create">Ecrire un tweet</string>
+    <string name="menu_exit">Quitter</string>
+    <string name="menu_tts_enable">Lire les tweets</string>
+    <string name="menu_tts_disable">Mute</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_contact">Contact developpeur</string>
+    <string name="menu_rate">Noter app</string>
+
+    <!-- dialog -->
+    <string name="create_tweet_title">Create tweet</string>
+    <string name="create_tweet_message">Type your text or say it!</string>
+    <string name="create_tweet_send">Send</string>
+    
+</resources>
